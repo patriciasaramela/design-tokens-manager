@@ -1,0 +1,44 @@
+{
+  "name": "tokesn",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.16.6",
+    "@mui/material": "^5.16.4",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@tanstack/react-query": "^5.51.23",
+    "airtable": "^0.12.2",
+    "axios": "^1.6.8",
+    "date-fns": "^3.6.0",
+    "font-color-contrast": "^11.1.0",
+    "ramda": "^0.30.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.52.1",
+    "react-json-view": "^1.21.3",
+    "react-router-dom": "^6.24.1",
+    "style-dictionary": "^4.0.0",
+    "styled-components": "^6.1.12",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "vite": "^5.2.0"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
